@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Funcionários</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    Lista de Funcionários
+  </header>
+
+  <button class="toggle-btn" onclick="alternarVisibilidadeCpf()">Alternar Visibilidade dos IDs</button>
+
+  <div class="container">
+    <table id="funcionariosTable">
+      <thead>
+        <tr>
+          <th>Cargo</th>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th id="cpfHeader">CPF</th>
+          <th>O que faz</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Empresa de Saúde. Todos os direitos reservados.
+  </div>
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>
